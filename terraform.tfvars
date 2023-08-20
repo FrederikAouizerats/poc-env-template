@@ -1,0 +1,13 @@
+ibmcloud_api_key = "your ibm cloud api key"
+region = "eu-de"
+resources_group = "ocpbmesxi-rg"
+name_vpc = "ocp-bm-vpc"
+security_group = "ocpbmesxi-sg"
+security_group-inbound_rule = "inbound_rule"
+security_group-egress_rule = "egress_rule"
+zone_number = "2"
+ip_block = ["192.168.22.0/24","192.168.0.0/24"]
+user-sshpubkeyname = "userpubsshkeyname"
+user-public-key = "your user public key"
+image-instance = "imageinstance"
+vsi-instance = "vsiinstance"
